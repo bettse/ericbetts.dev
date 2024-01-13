@@ -28,11 +28,6 @@
   to = "/projects"
   status = 200
 
-[[redirects]]
-  from = "/*"
-  to = "index.html"
-  status = 200
-
 [dev]
   port = 9000
 
