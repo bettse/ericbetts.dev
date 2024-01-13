@@ -7,13 +7,13 @@ import type { GitHubRepos, Project, ProjectPost } from '~/types';
  * Fetch Projects
  *
  * Make a GET request to the GitHub API to gather all repositories
- * under my `nurodev` username & then filter them down to only
+ * under my `bettse` username & then filter them down to only
  * include those that contain the `portfolio` topic
  *
  * @TODO Switch to v3 API using GraphQL to save over-fetching
  */
 export async function fetchProjects(): Promise<Array<Project> | null> {
-	const response = await fetch('https://api.github.com/users/nurodev/repos', {
+	const response = await fetch('https://api.github.com/users/bettse/repos', {
 		headers: {
 			...(process.env.GITHUB_PAT && {
 				authorization: `token ${process.env.GITHUB_PAT}`,

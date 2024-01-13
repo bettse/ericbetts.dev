@@ -1,0 +1,38 @@
+[[redirects]]
+  from = "/resume"
+  to = "https://ericbetts.org/resume"
+  status = 200
+
+[[redirects]]
+  from = "/cv"
+  to = "https://read.cv/bettse"
+  status = 200
+
+[[redirects]]
+  from = "/github"
+  to = "https://github.com/bettse"
+  status = 200
+
+[[redirects]]
+  from = "/gitlab"
+  to = "https://gitlab.com/bettse"
+  status = 200
+
+[[redirects]]
+  from = "/linkedin"
+  to = "https://www.linkedin.com/in/eric-betts/"
+  status = 200
+
+[[redirects]]
+  from = "/portfolio"
+  to = "/projects"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "index.html"
+  status = 200
+
+[dev]
+  port = 9000
+

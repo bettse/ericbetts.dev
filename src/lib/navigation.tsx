@@ -43,16 +43,16 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 	[
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:twitter',
-			text: 'Twitter',
-			href: 'https://twitter.com/nurodev',
+			icon: 'feather:github',
+			text: 'GitHub',
+			href: 'https://github.com/bettse',
 			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:github',
-			text: 'GitHub',
-			href: 'https://github.com/nurodev',
+			icon: 'feather:gitlab',
+			text: 'GitLab',
+			href: 'https://gitlab.com/bettse',
 			external: true,
 		},
 	],
